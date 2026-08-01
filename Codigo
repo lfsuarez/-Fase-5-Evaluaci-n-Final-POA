@@ -1,0 +1,60 @@
+def calcular_cantidad_a_pedir(stock_actual, stock_minimo):
+    if stock_actual < stock_minimo:
+        return stock_minimo - stock_actual
+    else:
+        return 0
+
+
+def evaluar_inventario(matriz_inventario):
+    reporte_pedidos = []
+    
+    for producto in matriz_inventario:
+        codigo = producto[0]
+        nombre = producto[1]
+        stock_actual = producto[2]
+        stock_minimo = producto[3]
+        
+        # Llamado a la función de lógica
+        cantidad_a_pedir = calcular_cantidad_a_pedir(stock_actual, stock_minimo)
+        
+        # Guardamos el resultado en la lista final
+        reporte_pedidos.append({
+            "nombre": nombre,
+            "cantidad": cantidad_a_pedir
+        })
+        
+    return reporte_pedidos
+
+
+def mostrar_resultados(reporte):
+    print("=" * 55)
+    print("      REPORTE DE REABASTECIMIENTO DE INVENTARIO")
+    print("=" * 55)
+    print(f"{'ARTÍCULO':<30} | {'CANTIDAD A PEDIR':<20}")
+    print("-" * 55)
+    
+    for item in reporte:
+        print(f"{item['nombre']:<30} | {item['cantidad']:<20}")
+        
+    print("=" * 55)
+
+
+def main():
+    # Matriz con al menos 5 artículos: [Código, Nombre, Stock Actual, Stock Mínimo]
+    inventario = [
+        ["ART001", "Tornillos 1/2 pulgada", 45, 100],
+        ["ART002", "Tuercas de Presión 3/8", 150, 100],
+        ["ART003", "Empacadura de Neopreno", 12, 50],
+        ["ART004", "Arandelas Planas 1/4", 200, 150],
+        ["ART005", "Cinta de Teflón Industrial", 5, 20]
+    ]
+    
+    # Procesar la información
+    reporte = evaluar_inventario(inventario)
+    
+    # Presentar la salida
+    mostrar_resultados(reporte)
+
+
+if __name__ == "__main__":
+    main()
