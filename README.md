@@ -6,35 +6,21 @@
 ---
 ## 📌 Enunciado del Problema
 
-Problema 3: Se dispone de una matriz que contiene información de inventario, con el siguiente formato:
-
-[Código del artículo, Nombre del artículo, Stock actual, Stock mínimo
-
-requerido]
-
+Se dispone de una matriz que contiene información de inventario, con el siguiente formato:
+[Código del artículo, Nombre del artículo, Stock actual, Stock mínimo requerido]
 Se requiere desarrollar una herramienta que determine qué artículos necesitan ser reabastecidos.
-
 Requisitos de desarrollo
-
-Matriz:
-
+* Matriz:
 Crear una matriz con al menos 5 artículos.
-
-Módulos:
-
+*Módulos:
 Implementar una función que determine la cantidad exacta a pedir para cada artículo.
-
-Lógica de negocio:
-
-Si el stock actual es menor que el stock mínimo requerido, la cantidad a pedir será:
-
-Stock mínimo requerido Stock actual
-
-Si el stock actual es mayor o igual al stock mínimo, la cantidad a pedir será cero.
-
-Salida:
-
+*Lógica de negocio:
+         - > Si el stock actual es menor que el stock mínimo requerido, la cantidad a pedir será:
+         - >Stock mínimo requerido Stock actual
+         -> Si el stock actual es mayor o igual al stock mínimo, la cantidad a pedir será cero.
+*Salida:
 Mostrar una lista con el nombre de cada artículo y la cantidad exacta que debe ser solicitada.
+
 
 ## 📌 Descripción del Problema
 El programa procesa una matriz de inventario de artículos donde cada elemento contiene:
@@ -60,6 +46,3 @@ Para ejecutar la solución localmente, asegúrate de tener Python instalado y ej
 ```bash
 python solucion_problema3.py
 
-## captura
-
-![Enunciado del Problema](<problema>)
