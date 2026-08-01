@@ -60,4 +60,6 @@ Para ejecutar la solución localmente, asegúrate de tener Python instalado y ej
 ```bash
 python solucion_problema3.py
 
+## captura
+
 ![Enunciado del Problema](<problema>)
