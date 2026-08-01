@@ -4,6 +4,8 @@
 **Fase:** Fase 5 - Evaluación Final POA  
 
 ---
+## 📌 Enunciado del Problema
+![Enunciado del Problema 5](<problema 5.png>
 
 ## 📌 Descripción del Problema
 El programa procesa una matriz de inventario de artículos donde cada elemento contiene:
