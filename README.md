@@ -1,5 +1,5 @@
 # Solución Problema 3 - Control de Inventario y Reabastecimiento
-**Curso:** Fundamentos de Programación (Código 213022)  
+**Curso:** Fundamentos de Programación (Código 213022_3)  
 **Universidad:** Universidad Nacional Abierta y a Distancia (UNAD)  
 **Fase:** Fase 5 - Evaluación Final POA  
 
