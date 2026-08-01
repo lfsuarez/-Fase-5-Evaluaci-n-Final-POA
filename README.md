@@ -5,7 +5,7 @@
 
 ---
 ## 📌 Enunciado del Problema
-![Enunciado del Problema 5](<problema5.png>)
+![Enunciado del Problema](<problema.png>)
 
 ## 📌 Descripción del Problema
 El programa procesa una matriz de inventario de artículos donde cada elemento contiene:
