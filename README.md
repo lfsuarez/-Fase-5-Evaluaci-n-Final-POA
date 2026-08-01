@@ -44,8 +44,11 @@ A partir de esta información, el sistema aplica la lógica de negocio para dete
 
 ## 🚀 Ejecución del Código
 Para ejecutar la solución localmente, asegúrate de tener Python instalado y ejecuta:
+
 ```bash
 python solucion_problema3.py
+
+![Ejecución del Programa](<problema>)
 
 
 
